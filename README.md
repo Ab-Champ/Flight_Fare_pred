@@ -2,26 +2,26 @@
 
 ## Table of Content
   * [Demo](#demo)
-  * [Overview](#overview)
-  * [Motivation](#motivation)
+  * [INTRODUCTION](#INTRODUCTION)
+  * [PROJECT_PURPOSE](#PROJECT_PURPOSE)
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
+  * [Technologies_Used](#Technologies_Used)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
 
-
 ## Demo
+![Screenshot 2023-10-08 195309](https://github.com/Ab-Champ/Flight_Fare_pred/assets/134682952/d64fe867-e5b4-447c-802a-780edb7a8505)
+![Screenshot 2023-10-08 195405](https://github.com/Ab-Champ/Flight_Fare_pred/assets/134682952/8747cc1e-0dc1-4d63-9962-04ed7570d653)
+![Screenshot 2023-10-08 195624](https://github.com/Ab-Champ/Flight_Fare_pred/assets/134682952/97310344-5f47-403f-b5a9-31d31e271b76)
 
-[![](https://drive.google.com/file/d/1Xq6a0rKAATEQg---odBI90lXCWsQo8jQ/view?usp=sharing)]
 
-[![](https://drive.google.com/file/d/1CfyDizoIwUSB9O0kA4B2FvxqHzGlvjIm/view?usp=sharing)]
+## INTRODUCTION
+The Flight Fare Prediction Project represents a dynamic and innovative solution aimed at revolutionizing the way travellers plan and manage their flights. In an era where air travel has become an integral part of our lives, the ability to make informed decisions about flight fares is of paramount importance.
 
-## Overview
-This is a Flask web app which predicts fare of Flight ticket.
+## PROJECT_PURPOSE
+The primary goal of the Flight Fare Prediction Project is to bridge this information gap by harnessing the power of data science, machine learning, and modern web technologies. By doing so, it aims to provide travellers with valuable insights into future flight fares, enabling them to make more informed decisions about their travel plans. The project will leverage historical pricing data, real-time flight information, and advanced predictive algorithms to deliver accurate fare predictions to users.
 
-## Motivation
-What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 
 ## Installation
 The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
@@ -29,40 +29,24 @@ The Code is written in Python 3.6.10. If you don't have Python installed you can
 pip install -r requirements.txt
 ```
 
-## Deployement on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+## Technologies_Used
 
-Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+•	Languages: Python 
+•	Libraries- Pandas, Scikit-Learn
+•	Visualization: Seaborn, Matplotlib
+•	ML Model: Random Forest
+•	Framework: Flask
+•	Frontend: HTML, CSS, Javascript
+•	Deployment: Heroku
+•	IDE: Jupyter lab, VS Code
+•	Dataset: Kaggle
 
-## Directory Tree 
-```
-├── static 
-│   ├── css
-├── template
-│   ├── home.html
-├── Procfile
-├── README.md
-├── app.py
-├── flight_price.ipynb
-├── flight_rf.pkl
-├── requirements.txt
-```
-
-## Technologies Used
-
-![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
-
-
-## Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/Mandal-21/Flight-Price-Prediction/issues) here by including your search query and the expected result
 
 ## Future Scope
+•	Develop a web-based interface for users to input travel details.
+•	Implement data ingestion and storage of historical flight pricing data.
+•	Create machine learning models for fare prediction.
+•	Integrate with external APIs to retrieve current flight information.
+•	Display fare predictions and flight details to users.
 
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Front-End 

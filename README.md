@@ -1,6 +1,7 @@
 # Flight Fare Prediction: 
 
 ## Table of Content
+  * [DeployLink](#DeployLink)
   * [Demo](#demo)
   * [INTRODUCTION](#INTRODUCTION)
   * [PROJECT_PURPOSE](#PROJECT_PURPOSE)
@@ -9,6 +10,9 @@
   * [Technologies_Used](#Technologies_Used)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
+
+## DeployLink
+https://flight-fare-pred-49609ea0ca0b.herokuapp.com/
 
 ## Demo
 ![Screenshot 2023-10-08 195309](https://github.com/Ab-Champ/Flight_Fare_pred/assets/134682952/d64fe867-e5b4-447c-802a-780edb7a8505)
